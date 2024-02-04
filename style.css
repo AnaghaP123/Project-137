@@ -1,0 +1,72 @@
+body
+{
+    background-size: cover;
+}
+
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+#start, #num_objects, #status
+{
+    font-size: 18px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color:gray;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height:3;
+    text-align: center;
+}
+
+canvas
+{   
+    border:2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px rgb(189, 142, 55);
+}
+
+#top_stuff
+{
+    position: fixed;
+    color:rgb(255, 255, 255);
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    line-height:3;
+}
+
+#info_explain
+{
+    font-size: 15px;
+    padding-top:7.5px;
+    height:30px;
+    background-color: rgb(20, 173, 239);
+}
+
+.heading
+{
+    background-color: rgb(20, 224, 239);
+}
+
+input
+{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(20, 224, 239), -5px -5px 5px rgb(20, 173, 239);
+}
+
+button
+{
+    width: 100px;
+    border: 5px solid red;
+    color: white;
+}
